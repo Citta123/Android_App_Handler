@@ -1,4 +1,4 @@
-#!/system/bin/sh
+#!/system/bin/bash
 
 clear
 
@@ -37,7 +37,7 @@ main_menu() {
   echo "3. UPLOAD"
   echo "4. KELUAR"
   echo -n "Pilih opsi (1-4): "
-  read CHOICE
+  read -r CHOICE
 
   case $CHOICE in
     1) baca_meter ;;
